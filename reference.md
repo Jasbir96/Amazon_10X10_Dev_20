@@ -9,3 +9,6 @@
 ### WebScrapping
 * Cheerio: http://zetcode.com/javascript/cheerio/
 * https://www.npmjs.com/package/cheerio 
+### CSS
+* https://www.w3schools.com/css/css_attribute_selectors.asp
+* https://www.w3schools.com/css/css_combinators.asp
