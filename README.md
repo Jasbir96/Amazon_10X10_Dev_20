@@ -6,4 +6,4 @@
  * Data Visualization
  * Data Pipleline creation
  * Sql Queries
- * linux 
+ * Linux 
