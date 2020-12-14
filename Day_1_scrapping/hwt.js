@@ -28,8 +28,7 @@ function gethtml(err, header, html) {
         console.log("recieved html");
         let fTool = cheerio.load(html);
         // html find 
-        let innings = fTool
-        (".card.content-block.match-scorecard-table .Collapsible");
+        let innings = fTool(".card.content-block.match-scorecard-table .Collapsible");
         let fIhtml = "";
         for (let i = 0; i < innings.length; i++) {
             //  fIhtml+= fTool(innings[i]).html();
@@ -40,8 +39,7 @@ function gethtml(err, header, html) {
             let cInning = fTool(innings[i]);
             console.log("Inning" + i);
             // 
-            let cIPlayers = cInning.find
-            (".table.bowler tbody tr");
+            let cIPlayers = cInning.find(".table.bowler tbody tr");
             for (let player = 0; player < cIPlayers.length; player++) {
                 // sleector children find
                 let allCols = fTool(cIPlayers[player]).find("td");

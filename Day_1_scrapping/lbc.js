@@ -15,6 +15,7 @@ let fs = require("fs");
 let cheerio = require("cheerio");
 let url = "https://www.espncricinfo.com/series/ipl-2020-21-1210595/sunrisers-hyderabad-vs-royal-challengers-bangalore-3rd-match-1216534/ball-by-ball-commentary";
 // url pass=> function
+// functional programming
 req(url, gethtml);
 console.log("send req");
 function gethtml(err, header, html) {

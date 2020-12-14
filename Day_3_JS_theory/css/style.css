@@ -1,0 +1,20 @@
+/* universal selector */
+*{
+color:red;
+}
+/* element  */
+h1{
+    color: violet;
+}
+p{
+    color:green;
+}
+/* class */
+.bg-blue{
+    background-color: blue;
+}
+/* id */
+#first{
+color:aquamarine;
+}
+
