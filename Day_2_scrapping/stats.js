@@ -117,9 +117,7 @@ function processPlayer(team, name, runs, balls, fours, sixes, sr) {
 }
 
 function excelReader(filePath, name) {
-    if (!fs.existsSync(filePath)) {
-        return null;
-    } else {
+   
         // workbook => excel
         let wt = xlsx.readFile(filePath);
         // get data from workbook
@@ -128,13 +126,15 @@ function excelReader(filePath, name) {
         let ans = xlsx.utils.sheet_to_json(excelData);
         // console.log(ans);
         return ans;
-    }
+    
 }
 function excelWriter(filePath, json, name) {
     // console.log(xlsx.readFile(filePath));
     let newWB = xlsx.utils.book_new();
     // console.log(json);
+    // [{}]-> excel
     let newWS = xlsx.utils.json_to_sheet(json);
+    
     xlsx.utils.book_append_sheet(newWB, newWS, name);  //workbook name as param
     //   file => create , replace
     xlsx.writeFile(newWB, filePath);

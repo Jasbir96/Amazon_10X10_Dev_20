@@ -12,3 +12,19 @@
 ### CSS
 * https://www.w3schools.com/css/css_attribute_selectors.asp
 * https://www.w3schools.com/css/css_combinators.asp
+
+### Tasks
+* cb 
+    single file read
+    five file read
+        serial
+        parallel
+    multiple file read
+        serial
+        parallel
+    for loop read    
+        serial 
+        parallel
+    if else 
+        serially 
+        
