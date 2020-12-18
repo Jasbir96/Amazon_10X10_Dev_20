@@ -16,15 +16,14 @@
 ### Tasks
 * cb 
     single file read
-    five file read
+    2 file read
         serial
         parallel
-    multiple file read
-        serial
-        parallel
+    if else 
+        serially
+        parallely
     for loop read    
         serial 
         parallel
-    if else 
-        serially 
+     
         
